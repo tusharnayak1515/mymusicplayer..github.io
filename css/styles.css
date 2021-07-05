@@ -145,7 +145,7 @@ html {
 @media only screen and (max-width:480px) {
 
     #music {
-        height: 43rem;
+        height: 45rem;
         width: 30rem;
     }
 
@@ -164,7 +164,7 @@ html {
 @media only screen and (min-width:481px) and (max-width:768px) {
 
     #music {
-        height: 48rem;
+        height: 50rem;
         width: 32rem;
     }
 
@@ -183,7 +183,7 @@ html {
 @media only screen and (min-width:769px) and (max-width:1024px) {
 
     #music {
-        height: 48rem;
+        height: 50rem;
         width: 35rem;
     }
 
