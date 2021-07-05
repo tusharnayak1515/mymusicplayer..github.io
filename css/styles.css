@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* font-family: ; */
+}
+
+#main {
+    min-height: 100vh;
+    min-width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(233, 252, 249);
+}
+
+#music {
+    background-color: white;
+    height: 50rem;
+    width: 40rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 1.5rem 3.2rem 0.8rem rgba(0, 0, 0, 0.342);
+    text-align: center;
+    padding: 4rem;
+}
+
+#music h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: rgb(71, 3, 3);
+    font-size: 2.5rem;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.411);
+    margin: 1rem 0 0.3rem 0;
+}
+
+#music h3 {
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    color: rgb(172, 167, 167);
+    margin-bottom: 2rem;
+}
+
+#music img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+}
+
+#music #controls {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 4rem;
+    /* background-color: yellowgreen; */
+}
+
+#music #controls .fas {
+    font-size: 2rem;
+    cursor: pointer;
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.404));
+}
+
+#music #controls .fas:hover {
+    color: rgb(82, 80, 80);
+}
+
+#music #controls .fa-play:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0, 0, 0, 0.404);
+}
+
+#music #controls .main-button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animate {
+    animation: rotateMusic 3s linear infinite;
+}
+
+@keyframes rotateMusic {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    #music {
+        height: 40rem;
+        width: 30rem;
+    }
+
+    #music img {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 100%;
+    }
+
+    #music #controls {
+        margin-top: 2rem;
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+    #music {
+        height: 45rem;
+        width: 32rem;
+    }
+
+    #music img {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 100%;
+    }
+
+    #music #controls {
+        margin-top: 3rem;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+    #music {
+        height: 45rem;
+        width: 35rem;
+    }
+
+    #music img {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 100%;
+    }
+
+    #music #controls {
+        margin-top: 2rem;
+    }
+
+}
