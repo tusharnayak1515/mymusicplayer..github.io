@@ -20,7 +20,7 @@ const songs = [
     {
         name: "Brown_Munde",
         title: "Brown Munde",
-        artist: "AP Dhillon,Gurinder Gill"
+        artist: "AP Dhillon"
     },
     {
         name: "Tum_ho",
