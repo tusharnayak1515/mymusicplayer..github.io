@@ -60,6 +60,7 @@ const loadSong = (songs) => {
     artist.innerHTML = songs.artist;
     image.src = "images/" + songs.name + ".jpg";
     music.src = "songs/" + songs.name + ".mp3";
+    progress.style.width = `0%`;
     playMusic();
 };
 
